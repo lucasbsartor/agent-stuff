@@ -1,0 +1,24 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+.npm/
+
+# Logs and runtime noise
+*.log
+logs/
+.node_repl_history
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Build and coverage output
+coverage/
+dist/
+out/
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/

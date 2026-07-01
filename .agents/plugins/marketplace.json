@@ -1,0 +1,26 @@
+{
+  "name": "agent-stuff",
+  "interface": {
+    "displayName": "Agent Stuff",
+    "shortDescription": "Lucas's portable agent skills shelf.",
+    "longDescription": "Personal and shareable agent skills: WMD review rubrics, handoff prompts, and more.",
+    "brandColor": "#14B8A6",
+    "icon": "./assets/agent-stuff-marketplace.png",
+    "logo": "./assets/agent-stuff-marketplace.png",
+    "websiteURL": "https://github.com/lucasbsartor/agent-stuff"
+  },
+  "plugins": [
+    {
+      "name": "agent-stuff",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

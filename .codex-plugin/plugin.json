@@ -1,0 +1,47 @@
+{
+  "name": "agent-stuff",
+  "version": "0.1.0",
+  "description": "Portable agent skills shelf: WMD review rubrics, handoff prompts, and more.",
+  "author": {
+    "name": "Lucas Sartor",
+    "url": "https://github.com/lucasbsartor"
+  },
+  "homepage": "https://github.com/lucasbsartor/agent-stuff",
+  "repository": "https://github.com/lucasbsartor/agent-stuff",
+  "license": "MIT",
+  "keywords": [
+    "wmd",
+    "thermos",
+    "code-review",
+    "deep-review",
+    "code-quality",
+    "security-review",
+    "handoff",
+    "delegation",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Stuff",
+    "shortDescription": "Portable agent skills for review and delegation.",
+    "longDescription": "Agent Stuff ships harness-agnostic skills including WMD review rubrics (Thermos-derived forks) and copyable handoff prompts. For parallel subagent double-review, use the official Cursor Thermos plugin.",
+    "developerName": "Lucas Sartor",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Review",
+      "Code Quality",
+      "Security",
+      "Delegation"
+    ],
+    "websiteURL": "https://github.com/lucasbsartor/agent-stuff",
+    "brandColor": "#14B8A6",
+    "defaultPrompt": [
+      "Do a wmd-review on this branch.",
+      "Review code quality with wmd-code-quality-review.",
+      "Run both WMD reviews on this diff and give me one deduped report.",
+      "handoff: fix the session expiry bug"
+    ],
+    "composerIcon": "./assets/logo-codex.png",
+    "logo": "./assets/logo-codex.png"
+  }
+}
